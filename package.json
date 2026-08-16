@@ -1,0 +1,23 @@
+{
+  "name": "jeg-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio of John Emerson T. Gutierrez (BSIT) — frontend + Node.js/Express API + PostgreSQL + email notifications.",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1"
+  }
+}
